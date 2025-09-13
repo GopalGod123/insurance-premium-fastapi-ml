@@ -1,3 +1,4 @@
+import utils.session
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from model.predict import predict_output, MODEL_VERSION, model
